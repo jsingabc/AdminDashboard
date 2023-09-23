@@ -1,0 +1,170 @@
+body,
+html {
+    height: 100%
+}
+
+#main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1px;
+}
+
+#sidebar { 
+    height: 100%;
+    color: white;
+    background-color: purple;
+}
+
+.first {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin-right: 10px;
+}
+
+.items {
+    margin-bottom: 15px;
+}
+
+#mainContent {
+    height: 100%;
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+#header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headSearch {
+    display: flex;
+}
+
+#rightUpHead {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#rightLowHead {
+    display: flex;
+    
+
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonElement {
+    padding-right: 5%;
+}
+
+button {
+    border-radius: 30%;
+}
+
+#news {
+    background-color: lightgray;
+    height: 100%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+#newsLeft {
+    margin-bottom: 10%;
+    height: 95%;
+}
+
+.cardDiv {
+    height: 100%;
+    width: 90%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    margin-left: 3%;
+    border-left: 10px solid orange;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 90%;
+    
+}
+
+.lowerCard{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.social{
+    height: 20px;
+}
+
+#projectsTitle {
+    padding-top: 2%;
+}
+
+#announementsTitle{
+    padding-top: 6%;
+}
+
+#newsRight {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 95%;
+    border: 2px solid black;
+}
+
+#annoucements {
+    border: 2px solid blue;
+    height: 50%;
+    background-color: white;
+}
+
+#trending {
+    border: 2px solid red;
+    height: 35%;
+    padding-top: 20px;
+    background-color: white;
+}
+
+
+.announce {
+    background-color: white;
+    height: auto;
+    border-top: .25rem dotted black;
+    padding-top: 5%;
+    margin-bottom: -7%;
+
+}
+
+.trend {
+    background-color: white;
+    
+}
+
+.rightLowTrend {
+    display: flex;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+
+}
